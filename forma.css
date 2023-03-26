@@ -4,3 +4,16 @@ h1 {
 body {
     background-color: #1b1c1b;
 }
+
+@media screen and (max-width: 600px)
+{
+    h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .darkened-image {
+        filter: brightness(50%);
+  
+        background-image: url("nfsmwphone.png");
+    }
+}

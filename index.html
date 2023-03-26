@@ -59,9 +59,45 @@
             filter: brightness(50%);
       
             background-image: url("nfsmw.png");
-            height: 650px;
-            width: 1900px;
         }
+#imagetest {
+  height: 650px;
+            width: 1900px;
+}
+#divxd {
+  font-size: 40px;
+}
+@media screen and (max-width: 600px)
+{
+    h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .darkened-image {
+        filter: brightness(50%);
+  
+        background-image: url("nfsmwphone.png");
+    }
+    #imagetest {
+      height: 650px;
+            width: 500px;
+    }
+    .bottom-right {
+      position: absolute;
+      top:65%;
+      left:50%;
+    }
+    #divxd {
+    font-size: 40px;
+    }
+    .info {
+    margin-left: 10px;
+    }
+    .text {
+    margin-left: 50px;
+    margin-right: 10px;
+    }
+}
 </style>
 </head>
 <body>
@@ -88,8 +124,8 @@
       </nav>
 
 <div>
-        <div class="darkened-image"></div>
-        <div class="centered"><h1  style="color: white;" style="font-size: 100px;"><b>Need For Speed™ Most Wanted Remastered</b></h1></div>
+        <div class="darkened-image" id="imagetest"></div>
+        <div class="centered"><h1  style="color: white;" id="divxd"><b>Need For Speed™ Most Wanted Remastered</b></h1></div>
         <div class="bottom-right"><h1  style="color: white;" style="font-size: 60px;"><b>Created by: EofGames</b></h1></div>
 </div>
 <h1 style="text-align: center;color: white;"><b>Game Features:</b></h1>
